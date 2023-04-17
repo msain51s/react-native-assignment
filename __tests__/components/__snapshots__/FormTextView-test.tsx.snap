@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormTextView render correctly 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "black",
+        "fontSize": 16,
+        "margin": 10,
+      }
+    }
+  >
+    key
+  </Text>
+  <Text
+    style={
+      {
+        "color": "black",
+        "fontSize": 16,
+        "margin": 10,
+      }
+    }
+  >
+    value
+  </Text>
+</View>
+`;

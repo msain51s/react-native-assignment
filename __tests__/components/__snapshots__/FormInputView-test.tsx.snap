@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInputView render correctly 1`] = `
+<TextInput
+  keyboardType="default"
+  onChangeText={[Function]}
+  placeholder="Name"
+  style={
+    {
+      "backgroundColor": "white",
+      "borderColor": "grey",
+      "borderRadius": 20,
+      "borderWidth": 1,
+      "color": "black",
+      "margin": 10,
+      "padding": 10,
+    }
+  }
+/>
+`;

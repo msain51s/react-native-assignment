@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "white",
+      "borderRadius": 10,
+      "elevation": 8,
+      "margin": 10,
+      "padding": 10,
+      "shadowColor": "black",
+      "shadowOffset": {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.26,
+      "shadowRadius": 6,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      Name : 
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      abc
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      Occupation : 
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      Engineer
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      Company : 
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      xyz
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      Email Address : 
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      xyz.com
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      Phone Number : 
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      1234567890
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      LinkedInUrl : 
+    </Text>
+    <Text
+      style={
+        {
+          "color": "black",
+          "fontSize": 16,
+          "margin": 10,
+        }
+      }
+    >
+      mm.com
+    </Text>
+  </View>
+</View>
+`;

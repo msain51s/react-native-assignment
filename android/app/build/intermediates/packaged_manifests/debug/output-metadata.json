@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.demo",
+  "applicationId": "com.reactnative_assignment",
   "variantName": "debug",
   "elements": [
     {

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1681729243963" clover="3.2.0">
+  <project timestamp="1681729243963" name="All files">
+    <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3" elements="9" coveredelements="7" complexity="0" loc="5" ncloc="5" packages="2" files="4" classes="4"/>
+    <package name="components">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="FormInputView.tsx" path="/Users/manojsain/Documents/react-native-workshop/ReactNative_assignment/src/components/FormInputView.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="FormTextView.tsx" path="/Users/manojsain/Documents/react-native-workshop/ReactNative_assignment/src/components/FormTextView.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="11" count="7" type="stmt"/>
+      </file>
+      <file name="ListItem.tsx" path="/Users/manojsain/Documents/react-native-workshop/ReactNative_assignment/src/components/ListItem.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="utility">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Styles.tsx" path="/Users/manojsain/Documents/react-native-workshop/ReactNative_assignment/src/utility/Styles.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
