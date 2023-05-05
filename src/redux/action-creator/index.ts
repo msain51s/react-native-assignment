@@ -1,21 +1,21 @@
-import { Dispatch } from "redux";
-import { Action, ActionType } from "../actions";
-import { Item } from "../reducers/reducer";
+import {Item} from '../reducers/reducer';
 
-export const addItemToList = (item:Item) =>{
-    return(dispatch:Dispatch<Action>) =>{
-        dispatch({
-            type:ActionType.ADD_ITEM,
-            payload:item
-        })
-    }
+export enum ActionType {
+  ADD_ITEM = 'addItem',
+  REMOVE_ITEM = 'removeItem',
 }
 
-export const removeItemFromList = (itemIndex:number) =>{
-    return(dispatch:Dispatch<Action>) =>{
-        dispatch({
-            type:ActionType.REMOVE_ITEM,
-            payload:itemIndex
-        })
-    }
-}
+export const removeItemFromList = (itemIndex: number, itemArr: Item[]) => {
+  return {
+    type: ActionType.REMOVE_ITEM,
+    index: itemIndex,
+    itemList: itemArr,
+  };
+};
+
+export const addItemToList = (item: Item) => {
+  return {
+    type: ActionType.ADD_ITEM,
+    item
+  };
+};

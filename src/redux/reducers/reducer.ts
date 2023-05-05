@@ -1,25 +1,32 @@
-import { Action, ActionType } from "../actions"
-
+import {createSlice} from '@reduxjs/toolkit';
+import type {PayloadAction} from '@reduxjs/toolkit';
 
 export type Item = {
-        name: string,
-        occupation: string,
-        company: string,
-        emailAddress: string,
-        phoneNumber: string,
-        linkedInUrl: string
-}
+  name: string;
+  occupation: string;
+  company: string;
+  emailAddress: string;
+  phoneNumber: string;
+  linkedInUrl: string;
+};
 
-const initialState : Item[] =[]
+const itemList: Item[] = [];
+const initialState = {
+  dataList: itemList,
+};
 
-export const listReducer = (state=initialState,action:Action) =>{
-    switch(action.type){
-        case ActionType.ADD_ITEM:
-            return [...state,action.payload]
-        case ActionType.REMOVE_ITEM:
-            return state= [...state.filter((_,i)=> i!==action.payload)]
-        default:
-            return state      
-    }
+export const listReducerSlice = createSlice({
+  name: 'listSlice',
+  initialState,
+  reducers: {
+    addItem: (state, action: PayloadAction<Item>) => {
+      state.dataList = [...state.dataList,action.payload]
+    },
+    removeItem: (state, action: PayloadAction<Item[]>) => {
+      state.dataList = action.payload;
+    },
+  },
+});
 
-}
+export const {addItem, removeItem} = listReducerSlice.actions;
+export default listReducerSlice.reducer;
